@@ -3,7 +3,7 @@
 class FizzBuzz{
     public function say($num)
     {
-        return "Hello";
+        return "1";
     }    
 }
 
