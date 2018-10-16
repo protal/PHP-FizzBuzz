@@ -19,6 +19,16 @@ class FizzBuzzTest extends TestCase{
         $fizzBuzz = new FizzBuzz();
         $this->assertEquals("Fizz",$fizzBuzz->say(3));
     }
+    public function testInput4MustBeReturn4()
+    {
+        $fizzBuzz = new FizzBuzz();
+        $this->assertEquals("4",$fizzBuzz->say(4));
+    }
+    public function testInput7MustBeReturn7()
+    {
+        $fizzBuzz = new FizzBuzz();
+        $this->assertEquals("7",$fizzBuzz->say(7));
+    }
 }
 
 ?>
